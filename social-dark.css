@@ -1,0 +1,69 @@
+/* =====================================================================
+ * File:        social-dark.css
+ * Author:      Chris Jones-Gill - KISS Web Design
+ * Version:     0.1
+ * Created:     March 2012
+ * Copyright:   KISS Web Design - (C) 2012 - All rights reserved
+ * License:     This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ *              http://creativecommons.org/licenses/by-sa/3.0/
+/* ===================================================================== */
+
+/*
+Icon                		Hex Entitiy         CSS Content
+======================================================================
+Gplus               		!                   content: '!';
+Facebook            		&#x22;              content: '\22';
+Twitter             		#                   content: '#';
+Twitter_2           		$                   content: '$';
+Feed                		%                   content: '%';
+Youtube             		&                   content: '&';
+Vimeo               		&#x27;              content: '\27';
+Flickr              		(                   content: '(';
+Picasa              		)                   content: ')';
+Dribble             		*                   content: '*';
+Forrst              		+                   content: '+';
+Deviantart          		,                   content: ',';
+Github              		-                   content: '-';
+Wordpress           		.                   content: '.';
+Blogger             		/                   content: '/';
+Tumblr              		0                   content: '0';
+Yahoo               		1                   content: '1';
+Amazon              		2                   content: '2';
+Soundcloud          		3                   content: '3';
+Linkedin            		4                   content: '4';
+Lastfm              		5                   content: '5';
+Stumbleupon         		6                   content: '6';
+Pinterest           		7                   content: '7';
+*/
+
+@font-face {
+    font-family: 'KISSWebDesignSocialDark';
+    src: url('social-dark-webfont.eot');
+    src: url('social-dark-webfont.eot?#iefix') format('embedded-opentype'),
+         url('social-dark-webfont.woff') format('woff'),
+         url('social-dark-webfont.ttf') format('truetype'),
+         url('social-dark-webfont.svg#KISSWebDesignSocialDark') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Cambria,Georgia,Times,"Times New Roman";
+    font-size: 100%;
+    line-height: 1.5;
+	width: 960px;
+}
+
+div.showallglyphs {
+	padding: 20px;
+}
+
+div.showallglyphs:after {
+	font-size: 4.5em;
+    font-family: "KISSWebDesignSocialDark";
+    content: "! \22  $ % & \27  ( ) * + , - . / 0 1 2 3 4 5 6 7";
+}
