@@ -1,0 +1,34 @@
+ * Project:		Social-Dark-Glyph-Font
+ * Author:      Chris Jones-Gill - KISS Web Design
+ * Version:     0.1
+ * Created:     March 2012
+ * Copyright:   KISS Web Design - (C) 2012 - All rights reserved
+ * License:     This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ *              http://creativecommons.org/licenses/by-sa/3.0/
+
+Contains 23 Social Networking Icon Glyphs on a dark background.
+Icon                		Hex Entitiy         CSS Content
+======================================================================
+Gplus               		!                   content: '!';
+Facebook            		&#x22;              content: '\22';
+Twitter             		#                   content: '#';
+Twitter_2           		$                   content: '$';
+Feed                		%                   content: '%';
+Youtube             		&                   content: '&';
+Vimeo               		&#x27;              content: '\27';
+Flickr              		(                   content: '(';
+Picasa              		)                   content: ')';
+Dribble             		*                   content: '*';
+Forrst              		+                   content: '+';
+Deviantart          		,                   content: ',';
+Github              		-                   content: '-';
+Wordpress           		.                   content: '.';
+Blogger             		/                   content: '/';
+Tumblr              		0                   content: '0';
+Yahoo               		1                   content: '1';
+Amazon              		2                   content: '2';
+Soundcloud          		3                   content: '3';
+Linkedin            		4                   content: '4';
+Lastfm              		5                   content: '5';
+Stumbleupon         		6                   content: '6';
+Pinterest           		7                   content: '7';
